@@ -98,11 +98,11 @@ $(document).ready(function(){
     //Add your last .click() here!
     $("#equals").click(function(){
     	if (operator === "+"){
-            console.log("im in plus"+ "number =" +number+ "newnumber=" + newnumber);
+            //console.log("im in plus"+ "number =" +number+ "newnumber=" + newnumber);
 
     		number = (parseFloat(number, 10) + parseFloat(newnumber,10)).toString(10);
 
-            console.log("after adding"+number);
+            //console.log("after adding"+number);
     	} else if (operator === "-"){
     		number = (parseFloat(newnumber, 10) - parseFloat(number,10)).toString(10);
     	} else if (operator === "/"){
